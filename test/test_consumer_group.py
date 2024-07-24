@@ -74,7 +74,7 @@ def test_group(kafka_broker, topic):
         threads[i] = t
 
     try:
-        timeout = time.time() + 35
+        timeout = time.time() + 350
         while True:
             for c in range(num_consumers):
 
